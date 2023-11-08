@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    background-color: blueviolet;
+    padding: 30px;
+}
+ nav a {
+     background-color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     margin: 5px;
+ }
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: #036f47;
+}
+
+input[type=text] {
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    margin: 10px auto;
+    display: block;
+}
+
+.formulaire button {
+    margin: auto;
+    display: block;
+}
+
+.alert-error {
+    text-align: center;
+    color: red;
+}
+
+.alert-success {
+    text-align: center;
+    color: green;
+}
+
+
+.formulaire {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.formulaire p {
+    text-align: center;
+    font-size: 20px;
+}
